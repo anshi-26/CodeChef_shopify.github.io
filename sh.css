@@ -1,0 +1,208 @@
+html{
+    font-size: 25px;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: linear-gradient(to bottom,#5C6AC3 0%,#5C6AC3 30%,#ffffff 50%,#ffffff 100%);
+    height: 200vh;
+}
+@media only screen and (max-width:400px){
+    body{
+    background-image: linear-gradient(to bottom,#5C6AC3 0%,#5C6AC3 30%,#ffffff 50%,#ffffff 100%);
+    height: 650vh;
+    }
+}
+@media only screen and (max-width:500px){
+    body{
+    background-image: linear-gradient(to bottom,#5C6AC3 0%,#5C6AC3 30%,#ffffff 50%,#ffffff 100%);
+    height: 650vh;
+    }
+}
+@media only screen and (max-width:900px){
+    body{
+    background-image: linear-gradient(to bottom,#5C6AC3 0%,#5C6AC3 10%,#ffffff 25%,#ffffff 100%);
+    height: 500vh;
+    }
+}
+@media only screen and (max-width:300px){
+    body{
+    background-image: linear-gradient(to bottom,#5C6AC3 0%,#5C6AC3 30%,#ffffff 50%,#ffffff 100%);
+    height: 750vh;
+    }
+}
+@media only screen and (max-width:1300px){
+    body{
+    background-image: linear-gradient(to bottom,#5C6AC3 0%,#5C6AC3 10%,#ffffff 25%,#ffffff 100%);
+    height: 750vh;
+    }
+}
+.b{
+    text-align: center;
+}
+#trial button{
+    font-size: large;
+    width: 10em;
+    border:0;
+    padding: 1em 1em;
+    outline: none;
+    color:white;
+    background: rgb(55, 55, 79);
+    border-radius: 0.5em;
+    cursor: pointer;
+    }
+#email button{
+    font-size: large;
+    text-align: left;
+    margin:auto;
+    width: 25em;
+    border:0;
+    padding: 1em 1em;
+    outline: none;
+    color:grey;
+    background: white;
+    border-radius: 0.5em;
+    cursor: text;
+}
+@media all and (max-width:500px){
+    #email button{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:900px){
+    body{
+        margin:auto;
+    }
+}
+.colour{
+    color: white;
+    text-align: center;
+}
+#MainTitle{
+    margin-left: 45%;
+    margin-right: 45%; 
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-style: italic;
+}
+#MainTitle img{
+    height: 2em;
+}
+@media all and (max-width:500px){
+    #MainTitle img{
+        height: 3em;
+        width:2em;
+    }
+}
+#SubTitle1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align-last: center; 
+    font-family: 'Raleway', sans-serif;
+}
+#SubTitle2{
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+    text-align-last: center;
+}
+.imag1{
+    text-align: center;
+}
+.imag1 img{
+   width:45%;
+   height:auto;
+}
+#subpara{
+    font-size: large;
+}
+.container{
+    width: 900px;
+    border: 3px solid white;
+    background-color: white;
+    margin: 33px auto;
+}
+#c1{
+    float: left; 
+    margin-left: 100px;
+    width:25%; 
+}
+#c2{
+    float: right;
+    width:25%;
+    margin-right: 100px;
+}
+#c3{
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+    width:25%;
+}
+.row{
+    color: black;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    font-family: 'Mukta', sans-serif;
+    font-size: x-large;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: left;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+@media(max-width:500px){
+    .row img{
+        width:25%;
+    }
+}
+.brands ul ol {
+list-style: none;
+display: inline-block;
+position: relative;
+overflow: hidden;
+cursor:pointer;
+margin: 10px;
+}
+#free_trial button{
+    font-size: large;
+    width: 10em;
+    border:0;
+    padding: 1em 1em;
+    outline: none;
+    color:white;
+    background: rgb(55, 55, 79);
+    border-radius: 0.5em;
+    cursor: pointer;
+    }
+.footer{
+    text-align: center;
+}
+#footer1{
+    font-size: medium;
+}
+#h5{
+    font-size: xx-large;
+    font-family: 'Hind Madurai', sans-serif;
+}
+#Terms{
+    color: grey;
+    font-size: large;
+    text-align: right;
+    margin-top: 8%;
+    margin-right: 25%;
+    cursor: pointer;
+}
